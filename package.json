@@ -1,0 +1,24 @@
+{
+  "name": "geofoto",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "idb": "^8.0.4",
+    "jszip": "^3.10.2",
+    "piexifjs": "^1.0.6"
+  },
+  "devDependencies": {
+    "@types/piexifjs": "^1.0.0",
+    "typescript": "5.6",
+    "vite": "^6.4.5",
+    "vite-plugin-pwa": "^0.21.2",
+    "vitest": "^2.1.9"
+  }
+}
